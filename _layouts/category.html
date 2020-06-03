@@ -77,7 +77,7 @@ Toggle navigation
                     <div style="padding:10px">
                         <!-- Loop output paged posts -->
 
-                        {% for post in paginator.posts %} {% if post.date =='web' %}
+                        {% for post in paginator.posts %} {% if post.category =='web' %}
                         <h2>
                             <a href="{{ post.url }}">
 {{ post.title }}
